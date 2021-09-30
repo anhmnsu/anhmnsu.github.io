@@ -1,0 +1,53 @@
+body{
+	font: 15px 'Be Vietnam Pro', sans-serif;
+	margin: auto;
+	width: 70%;
+	background-color: #929AA2;
+}
+.intro{
+	position: absolute;
+	right: 250px;
+	width: 480px;
+}
+h1{
+	font: 50px 'Courgette', cursive;
+	text-align: center;
+	color: white;
+}
+h2{
+	font: bold 40px 'Playball', cursive;
+	color: #1D2625;
+}
+h3{
+	font: 20px 'Bebas Neue', cursive;
+	color: #1D2625;
+}
+.brownies, .buttercream-frosting{
+	padding: 20px 20px;
+	border: thick #1D2625;
+	border-style: dotted hidden hidden;
+}
+.brownies{
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.brownies-ingredients{
+	grid-column-start: 1;
+}
+.buttercream-frosting{
+	background-color: white;
+}
+ul.cooking-time{
+	color: #1D2625;
+	padding: 20px;
+	list-style: circle inside;
+}
+ul.cooking-time li {
+	background: white;
+	margin: 5px;
+	padding: 5px;
+}
+ol{
+	list-style-position: inside;
+}

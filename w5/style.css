@@ -1,0 +1,44 @@
+body{
+	font: 120% 'Roboto', sans-serif;
+	line-height:27px;
+	background-color: #c8a37b;
+	margin: 0 200px;
+}
+h1, h2, h3{
+	font-family: 'Bebas Neue', cursive;
+}
+h1{
+	color: #420c00;
+	font-size: 60px;
+	text-align: center;
+}
+h2{
+	font-size: 45px;
+	color: #603217;
+}
+h3{
+	font-size: 30px;
+	color: #8f5431;
+}
+.brownies,.frosting{
+	border: dashed #603217;
+	margin: 5px;
+	padding: 25px;
+	background-color: #faf8ec;
+}
+.image,.intro,.brownies,.frosting,.brownie-ingredients,.brownie-directions,.frosting-ingredients,.frosting-directions{
+	float: left;
+}
+.image1{
+	float: right;
+}
+.image1{
+	padding-right: 20px;
+}
+ul.cooking-time li{
+	list-style: circle inside;
+	border-bottom: 1px solid #420c00;
+	margin: 5px;
+	padding: 5px;
+}
+	
