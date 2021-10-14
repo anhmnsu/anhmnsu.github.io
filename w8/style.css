@@ -1,0 +1,123 @@
+/*laptop screen*/
+
+body{
+	font: 140% 'Roboto', sans-serif;
+	line-height: 150%;
+	background-color: #c8a37b;
+	margin: 0 10%;
+}
+h1, h2, h3{
+	font-family: 'Bebas Neue', cursive;
+}
+h1{
+	color: #420c00;
+	font-size: 300%;
+	line-height: 100%;
+	text-align: center;
+	animation: photo 4s infinite;
+}
+@keyframes photo{
+	0% {color: #faf8ec;}
+	25% {color: #c8a37b;}
+	50% {color: #8f5431;}
+	75% {color: #603217;}
+	100% {color: #420c00;}
+}
+h2{
+	font-size: 200%;
+	line-height: 100%;
+	color: #603217;
+}
+h3{
+	font-size: 30px;
+	color: #8f5431;
+}
+a{
+	font: 140%;
+	transition: font 2s;
+}
+a:hover{
+	font: italic bold 200% 'Roboto', sans-serif;
+}	
+.brownies,.frosting{
+	border: dashed #603217;
+	margin: 5px;
+	padding: 15px 35px;
+	background-color: #faf8ec;
+}
+.image,.intro,.brownies,.frosting,.brownie-ingredients,.brownie-directions,.frosting-ingredients,.frosting-directions{
+	float: left;
+}
+.intro{
+	width: 40%;
+	margin-left: 30px;
+	}
+.image{
+	text-align: center;
+}
+.brownie-ingredients{
+	width: 60%;
+}
+.image1{
+	float: right;
+	padding-right: 20px;
+	text-align:center;
+}
+.frosting-ingredients,.frosting-directions{
+	width: 45%;
+}
+.frosting-ingredients{
+	margin-right: 30px;
+}
+.frosting-directions{
+	margin-left: 30px;
+}
+ul.cooking-time li{
+	list-style: circle inside;
+	border-bottom: 1px solid #420c00;
+	margin: 5px;
+	padding: 5px;
+}
+
+/*tablet screen*/
+@media (min-width: 500px) {
+	body{
+		font-size: 120%;
+	}
+	.intro{
+		width: 50%;
+	}
+	.brownie-ingredients{
+		width: 50%;
+	}
+}
+/*mobile screen*/
+@media (max-width: 500px) {
+	body{
+		font-size: 100%;
+	}
+	.image{
+		float: none;
+	}
+	.intro{
+		width: 100%;
+		margin-left: 0;
+	}
+	.brownie-ingredients{
+		width: 100%;
+	}
+	.image1{
+		float: none;
+		padding: 10px;
+	}
+	.frosting-ingredients,.frosting-directions{
+		float: none;
+		width: 100%;
+	}
+	.frosting-ingredients{
+		margin-right: 0;
+	}
+	.frosting-directions{
+		margin-left: 0;
+	}
+}
