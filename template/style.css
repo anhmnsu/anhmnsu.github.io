@@ -1,0 +1,133 @@
+/*Pattern Library Document Styles*/
+header{
+	margin:auto;
+	width:50%;
+}
+
+section{
+	margin:auto;
+	border-bottom:1px solid #5d6e1e;
+	padding:50px;
+	width:80%;
+}
+
+#typography{
+	padding-top:0;
+}
+
+#navigation{
+	border-bottom:0;
+}
+
+/*Typography Styles*/
+#title{
+	font-size: 48px;
+	color: #3b5284;
+	text-align: center;
+}
+
+.section-head{
+	text-decoration: underline;
+	padding-top:25px;
+	font-size: 38px;
+	color: #5d6e1e;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lora', serif;
+}
+body{
+	font: 20px 'Open Sans', sans-serif;
+}
+ol li{
+	list-style-position: outside;
+	border-bottom: 1px solid #5d6e1e;
+	padding: 10px;
+	width: 40%;
+}
+/*Color Palette*/
+.palette{
+	display: inline-block;
+	width: 18.5%;
+	background-color: gray;
+	color:white;
+	text-align: center;
+	padding:10% 0;
+	margin-right:1%;
+}
+#color1{
+	background-color: #3b5284;
+}
+#color2{
+	background-color: #5ba8a0;
+}
+#color3{
+	background-color: #cbe54e;
+}
+#color4{
+	background-color: #94b447;
+}
+#color5{
+	background-color: #5d6e1e;
+}
+/*Navigation*/
+#button1{
+	border: none;
+	border-radius: 30px;
+	background-image: linear-gradient(to right, #cbe54e, #5ba8a0);
+	color: white;
+	padding: 14px 28px;
+	font: bold 16px 'Open Sans', sans-serif;
+	transition-duration: 0.4s;
+}
+#button2{
+	border: solid #5ba8a0;
+	border-radius: 30px;
+	padding: 10px 24px;
+	color: #5ba8a0;
+	background-color: white;
+	font: bold 16px 'Open Sans', sans-serif;
+	transition-duration: 0.4s;
+}
+#button1:hover{
+	border: solid #5ba8a0;
+	background-image: linear-gradient(to right, white, white);
+	color: #5ba8a0;
+	padding: 10px 24px;
+}
+#button2:hover{
+	border: none;
+	background-color: none;
+	background-image: linear-gradient(to right, #cbe54e, #5ba8a0);
+	color: white;
+	padding: 14px 28px;
+}
+#button1, #button2{
+	float: left;
+}
+#button3,#button4,#button5,#button6{
+	float: right;
+	border:none;
+	background-color: white;
+	color: #94b447;
+	font: bold 16px 'Open Sans', sans-serif;
+	padding: 14px 28px;
+	transition-duration: 0.4s;
+}
+#button3:hover,#button4:hover,#button5:hover,#button6:hover{
+	border:none;
+	background-color: #94b447;
+	color: white;
+	padding: 14px 28px;
+}
+a{
+	transition-duration: 0.4s;
+}
+a:hover{
+	color: #3b5284;
+	font: bold 30px 'Lora', serif;
+}
+/*Photography*/
+
+/*Navigation Styles*/
+
+/*Additional Styles—add if necessary*/
