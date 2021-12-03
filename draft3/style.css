@@ -1,0 +1,222 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5%;
+}
+
+/*this is header*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.head-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 3% 0;
+}
+section.engaging {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	height: 450px;
+}
+div#tab {
+	border:none;
+	color: #94b447;
+	font: bold 20px 'Open Sans', sans-serif;
+	padding: 14px 28px;
+	transition-duration: 0.4s;
+}
+div#tab:hover{
+	border:none;
+	background-color: #94b447;
+	color: white;
+	padding: 14px 28px;
+}
+img#engaging-image {
+    width: 100%;
+    border-radius: 20px;
+	position: relative;
+}
+div#title {
+    background: white;
+    padding: 30px;
+    width: 90%;
+    text-align: center;
+    border-radius: 20px;
+	font: bold 58px 'Lora', serif;
+	color: #3b5284;
+	position: absolute;
+    top: 50%;
+}
+
+
+/*this is intro*/
+section.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin: 5% 0;
+	border-bottom: 1px solid #5d6e1e;
+	border-top: 1px solid #5d6e1e;
+	width: 100%;
+    height: 1600px;
+    justify-content: space-around;
+}
+div#intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	width: 100%;
+    height: 40%;
+}
+h1 {
+	font: bold 48px 'Lora', serif;
+	color: #5d6e1e;
+	text-decoration: underline;
+}
+p {
+    display: inline-block;
+	font: 20px 'Open Sans', sans-serif;
+	text-align: justify;
+	line-height: 140%;
+    width: 70%;
+    height: 50%;
+}
+button#button1 {
+	border: solid white;
+	border-radius: 30px;
+	background-image: linear-gradient(to right, #cbe54e, #5ba8a0);
+	color: white;
+	padding: 10px 24px;
+	font: bold 16px 'Open Sans', sans-serif;
+	transition-duration: 0.4s;
+}
+button#button1:hover {
+	border: solid #5ba8a0;
+	background-image: linear-gradient(to right, white, white);
+	color: #5ba8a0;
+	padding: 10px 24px;
+}
+div#intro-image {
+    width: 100%;
+    height: 60%;
+    display: inline-block;
+    text-align: center;
+}
+img#image {
+    height: 300px;
+    border-radius: 20px;
+}
+
+/*this is content*/
+section.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	width: 100%;
+    height: 3200px;
+    justify-content: space-around;
+}
+.content-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+div#event-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    justify-content: space-around;
+	border: dashed #5ba8a0;
+    border-radius: 20px;
+}
+img#event {
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+}
+h2 {
+	font: bold 38px 'Lora', serif;
+	color: #5d6e1e;
+	text-decoration: underline;
+}
+button#button2 {
+	border: solid #5ba8a0;
+	border-radius: 30px;
+	padding: 10px 24px;
+	color: #5ba8a0;
+	background-color: white;
+	font: bold 16px 'Open Sans', sans-serif;
+	transition-duration: 0.4s;
+	margin-top: 5%;
+    width: 70%;
+}
+button#button2:hover {
+	border: solid white;
+	background-color: none;
+	background-image: linear-gradient(to right, #cbe54e, #5ba8a0);
+	color: white;
+	padding: 10px 24px;
+}
+
+/*this is footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	width: 100%;
+    height: 100px;
+    margin-top: 5%;
+	background-color: #cbe54e;
+}
+
+@media (min-width: 768px){
+
+section.engaging {
+	height: 600px;
+}
+div#title{
+	width: 80%;
+}
+
+/*this is intro*/
+section.intro {
+	flex-direction: row;
+    height: 600px;
+}
+div#intro-text {
+    height: 90%;
+}
+p {
+    width: 90%;
+}
+div#intro-image {
+    height: 70%;
+}
+img#image {
+    height: 200px;
+}
+
+/*this is content*/
+section.content {
+    height: 900px;
+}
+.content-event {
+    flex-direction: row;
+}
+div#event-box{
+	width: 30%;
+	height: 100%;
+}
+}
